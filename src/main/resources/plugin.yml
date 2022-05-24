@@ -1,0 +1,14 @@
+name: LBEssentialsComplement
+version: '1.0'
+main: lb.essentials.main.MainEssentials
+api-version: 1.16
+authors: [ Dimensions ]
+softdepend:
+  - LBEngines
+commands:
+  lantern:
+    description: Ativar/desativar a lanterna.
+  titles:
+    permission: lb.admin.titles
+    permission-message: "§cVocê não tem permissão para fazer isto."
+  profile:
